@@ -2,11 +2,13 @@
 
 The starter code here creates a simple visualization of the Titanic dataset. 
 
+The goal of this assignment is to display the Titanic data. In the previous assignment you examined the data and processed it for useful information. Here the goal is make that information visible.
+
+You should be able to take the functions you wrote for the previous assignment to get data you need for this assignment. 
+
 ## Getting started
 
 You'll need to run this with a local server. You can use Live Server with VS Code. 
-
-The goal of this assignment is display the Titanic data. In the previous assignment you examined the data and processed it for useful information. Here the goal is make that information visible. 
 
 ## Learning Objectives
 
@@ -18,11 +20,11 @@ The goal of this assignment is display the Titanic data. In the previous assignm
 
 ## Submission
 
-Submit your work on [GradeScope](https://www.gradescope.com/courses/218919)
+Submit your work on GradeScope.com.
 
 ## What to make? 
 
-Your project should be a web pages that displays the information graphically. Get creative, don't worry about what it looks like. 
+Your project should be a web page that displays the Titanic data graphically. Get creative!
 
 Your page should try and answer as many of these questions as possible. You can get creative. The images can be abstract. Have fun with the numbers!
 
@@ -39,11 +41,15 @@ Try and display as much of the data from the Titanic dataset listed below as you
 - Did more men or women survive?
 - Did passenger class affect survival?
 
+The bigger goal is to get the data you display to reveal more about the Titanic.
+
 Stretch challenges! Try these challenges if you've completed the challenges above. 
 
 - What was the most common fare paid? 
 - What were the ages of the passengers? 
-- How many passengers embarked at each of the three stops? 
+- How many passengers embarked at each of the three stops?
+- What were the ages of passengers embarking at stop?
+- What were the fares paid by passengers at each stop? 
 
 Use these CSS properties to express the ideas above: 
 
@@ -137,9 +143,11 @@ Here are three separate groups where passengers have been filtered on their port
 
 This example shows all of the examples above. The first row shows passengers by embarkation. The second row shows passengers by gender. Men in the first column, women in the second column and all passengers in the last. 
 
+Here are some more examples that illustrate some of the ideas here. https://github.com/soggybag/data-visualizations/tree/master/titanic
+
 ## What will you turn in?
 
-Post a link to the GitHub repo containing your work to [GradeScope](https://www.gradescope.com/courses/218919). 
+Post a link to the GitHub repo containing your work to GradeScope.com.
 
 ## Evaluating your work
 
