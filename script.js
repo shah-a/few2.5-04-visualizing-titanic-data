@@ -11,18 +11,17 @@ titanic.style.gridGap = '1px'
 
 // Map over the data and make a new element for each passenger
 const passengers = data.map(p => {
-  return document.createElement('div')
-})
-
-// Loop over each passenger and append them to the titanic
-passengers.forEach(p => {
-  titanic.appendChild(p)
+  const el = document.createElement('div')
+  titanic.appendChild(el)
+  return el
 })
 
 // Let's loop over each passenger and set some styles 
 passengers.forEach((p, i) => {
+  const { pclass, survived } = data[i].fields
   p.style.width = '10px'
   p.style.height = '10px'
+  p.style.opacity = survived === 'Yes' ? '100%' : '50%' 
   p.style.backgroundColor = '#000'
 })
 
