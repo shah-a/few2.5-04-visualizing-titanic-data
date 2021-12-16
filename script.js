@@ -21,7 +21,7 @@ passengers.forEach((p, i) => {
   const { pclass, survived } = data[i].fields
   p.style.width = '10px'
   p.style.height = '10px'
-  p.style.opacity = survived === 'Yes' ? '100%' : '50%' 
+  p.style.opacity = survived === 'Yes' ? '100%' : '50%'
   p.style.backgroundColor = '#000'
 })
 
