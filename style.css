@@ -6,8 +6,14 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: sans-serif;
 }
 
 #titanic {
-  margin: auto;
+  margin: 3em auto;
+}
+
+ul {
+  margin: 0 auto;
+  max-width: 600px;
 }

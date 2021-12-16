@@ -9,6 +9,26 @@ titanic.style.display = 'grid'
 titanic.style.gridTemplateColumns = 'repeat(34, 22px)'
 titanic.style.gridGap = '1px'
 
+data.sort((a, b) => {
+  if (a.fields.sex > b.fields.sex) {
+    return 1
+  }
+  if (a.fields.sex < b.fields.sex) {
+    return -1
+  }
+  return 0
+})
+
+data.sort((a, b) => {
+  if (a.fields.survived > b.fields.survived) {
+    return 1
+  }
+  if (a.fields.survived < b.fields.survived) {
+    return -1
+  }
+  return 0
+})
+
 // Map over the data and make a new element for each passenger
 const passengers = data.map(p => {
   const el = document.createElement('div')
@@ -18,7 +38,7 @@ const passengers = data.map(p => {
 
 // Let's loop over each passenger and set some styles 
 passengers.forEach((p, i) => {
-  const { pclass, sex, survived } = data[i].fields
+  const { age, sex, survived } = data[i].fields
   p.style.width = '20px'
   p.style.height = '20px'
   p.style.border = 'solid 1px transparent'
@@ -27,11 +47,24 @@ passengers.forEach((p, i) => {
   p.style.opacity = survived === 'Yes' ? '100%' : '50%'
 
   // sex
-  p.style.backgroundColor = sex === 'female' ? 'lightpink' : 'cornflowerblue'
+  p.style.backgroundColor = sex === 'female' ? 'crimson' : 'dodgerblue'
   p.style.borderRadius = sex === 'female' ? '50%' : '0%'
 
-  // pclass
-  // if (pclass === 1) {
-  //   p.style.border = 'solid 1px black'
-  // }
+  // age
+  if (age >= 70) {
+    p.style.border = '1px solid'
+    p.style.backgroundColor = 'gold'
+  }
+
+  if (age < 25) {
+    p.style.width = '15px'
+    p.style.height = '15px'
+    p.style.backgroundColor = 'purple'
+  }
+
+  if (age < 13) {
+    p.style.width = '10px'
+    p.style.height = '10px'
+    p.style.backgroundColor = 'gold'
+  }
 })
