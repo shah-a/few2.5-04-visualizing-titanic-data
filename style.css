@@ -10,10 +10,10 @@ body {
 }
 
 #titanic {
-  margin: 3em auto;
+  margin: 1.5rem auto;
 }
 
 ul {
-  margin: 0 auto;
+  margin: 1.5rem auto;
   max-width: 600px;
 }
