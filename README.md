@@ -80,7 +80,7 @@ Here are a few examples. You can try and recreate these, or come up with your ow
 
 **Example 1:** 
 
-![Example 1](titanic-age-survived-sex.png)
+![Example 1](img/titanic-age-survived-sex.png)
 
 - All passengers 
 - Gender as color - red or blue
@@ -89,7 +89,7 @@ Here are a few examples. You can try and recreate these, or come up with your ow
 
 **Example 2:** 
 
-![Example 2](titanic-age-survived-embarked-sex.png)
+![Example 2](img/titanic-age-survived-embarked-sex.png)
 
 - All passengers 
 - Gender as shape - female passengers have `borderRadius` 50%
@@ -99,7 +99,7 @@ Here are a few examples. You can try and recreate these, or come up with your ow
 
 **Example 3:** 
 
-![Example 3](titanic-age-sex-embarked-survived-pclass.png)
+![Example 3](img/titanic-age-sex-embarked-survived-pclass.png)
 
 - All passengers 
 - Age as size - Passengers below 18 years are smaller
@@ -109,7 +109,7 @@ Here are a few examples. You can try and recreate these, or come up with your ow
 
 **Example 4:** 
 
-![Example 4](titanic-sorted-embarked-survived.png)
+![Example 4](img/titanic-sorted-embarked-survived.png)
 
 - All passengers sorted on:
   - emabrked
@@ -125,7 +125,7 @@ Here are a few examples. You can try and recreate these, or come up with your ow
 
 **Example 5:** 
 
-![Example 5](titanic-sort-men-women.png)
+![Example 5](img/titanic-sort-men-women.png)
 
 Here I created two separate groups by filtering the data on gender. Men are on the left and women are on the right. 
 
@@ -133,13 +133,13 @@ Think about ways you can express different ideas and tell a story about what hap
 
 **Example 6:** 
 
-![Example 6](titanic-filtered-embarked.png)
+![Example 6](img/titanic-filtered-embarked.png)
 
 Here are three separate groups where passengers have been filtered on their port of embarkation. Southampton on the left, Cherbourg in the center, and Queenstown on the right. 
 
-**Example 6:** 
+**Example 7:** 
 
-![Example 6](titanic-all.png)
+![Example 7](img/titanic-all.png)
 
 This example shows all of the examples above. The first row shows passengers by embarkation. The second row shows passengers by gender. Men in the first column, women in the second column and all passengers in the last. 
 
